@@ -2,7 +2,7 @@
 Handcrafted Vim colorscheme by jhlgns
 
 ## Installation
-Compatible with any popular vim plugin manager.
+Compatible with any popular Vim plugin manager.
 ```vim
 Plugin 'jhlgns/april.vim'
 ```
