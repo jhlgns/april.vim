@@ -1,4 +1,5 @@
-# April.vim - VIM colorscheme by jhlgns
+# April.vim
+Handcrafted Vim colorscheme by jhlgns
 
 ## Installation
 Compatible with any popular vim plugin manager.
