@@ -6,3 +6,5 @@ Compatible with any popular vim plugin manager.
 Plugin 'jhlgns/april.vim'
 ```
 
+## Screenshot
+![](./screenshot.png)
