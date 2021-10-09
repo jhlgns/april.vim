@@ -3,6 +3,12 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
+
+if !exists("g:april_endofbuffer")
+    let g:april_endofbuffer=1
+endif
+
+
 let g:colors_name = "april"
 
 
@@ -56,7 +62,11 @@ hi! link csStorage Statement
 hi! link csOpSymbols Normal
 hi! link csLogicSymbols Normal
 hi! link csClass Type
-hi! EndOfBuffer guifg=#000000 guibg=NONE
+if g:april_endofbuffer == 1
+    hi! EndOfBuffer guifg=#303030 guibg=NONE
+else
+    hi! EndOfBuffer guifg=#191a1b
+endif
 
 hi! Cursor  guifg=white guibg=#aa4411
 hi! iCursor guifg=white guibg=#b3b3a3
