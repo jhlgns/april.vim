@@ -51,7 +51,7 @@ endif
 hi! StatusLine   gui=NONE guifg=#d1c4c4 guibg=#1b1b1b
 hi! StatusLineNC gui=NONE guifg=#d0c0c0 guibg=#1b1b1b
 hi! Visual       guibg=#393939
-hi! Search       guibg=#ffffff guifg=#000000
+hi! Search       guibg=#191a1b guifg=#832560
 hi! Pmenu        guibg=#111111
 hi! PmenuSel     guibg=#222222
 
