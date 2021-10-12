@@ -68,6 +68,8 @@ else
     hi! EndOfBuffer guifg=#191a1b
 endif
 
+hi! link jsonKeyword Type
+
 hi! Cursor  guifg=white guibg=#aa4411
 hi! iCursor guifg=white guibg=#b3b3a3
 
