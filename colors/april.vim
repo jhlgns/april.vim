@@ -12,21 +12,24 @@ endif
 let g:colors_name = "april"
 
 
-hi! Normal      gui=NONE guifg=#b3b3a3 guibg=#191a1b
+hi! Normal      gui=NONE guifg=#e4cfc0 guibg=#2c323a
 
-hi! Comment     gui=NONE guifg=#6a4949
+hi! Comment     gui=NONE guifg=#757575
 
 hi! Constant    gui=NONE guifg=#729a59
-hi! String      gui=NONE guifg=#398f7f
+hi! String      gui=NONE guifg=#2acf98
 
 hi! link Identifier Normal
-hi! Function    gui=NONE guifg=#d56f4f
+"hi! Function    gui=NONE guifg=#ff9999
 
-hi! Statement   gui=NONE guifg=#deac46
+"hi! Statement   gui=NONE guifg=#deac46
+hi! Statement   gui=NONE guifg=#ffffff
 
 hi! PreProc     gui=NONE guifg=#a274c5
 
-hi! Type        gui=NONE guifg=#c9a0c0
+"hi! Type        gui=NONE guifg=#c9a0c0
+"hi! Type        gui=NONE guifg=#eeaa77
+hi! link Type Normal
 
 hi! Special     gui=NONE guifg=#87AFAF
 
