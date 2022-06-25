@@ -7,5 +7,5 @@ Compatible with any popular Vim plugin manager.
 Plugin 'jhlgns/april.vim'
 ```
 
-## Screenshot
+## Screenshot \[Not up to date\]
 ![](./screenshot.png)
